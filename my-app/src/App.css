@@ -1,38 +1,75 @@
-.App {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.fancy.title {
+  font-size: 30px;
+  color: rgb(143, 5, 60);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fancy.task {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: rgb(92, 95, 92);
+}
+
+.fancy.task:hover{
+  color: #d8981f;
+}
+
+.fancy.message {
+  font-family: Brush Script Std, cursive;
+  font-size: 25px;
+  color: rgb(39, 134, 39);
+  font-style: italic;
+}
+
+button{
+  background-color: darkgray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover{
+  background-color: grey;
+}
+
+.generator {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.generator p {
+  font-size: 30px;
+  font-family: Brush Script MT, cursive;
+  color:  rgb(255, 81, 0);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer {
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer p {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
 }
