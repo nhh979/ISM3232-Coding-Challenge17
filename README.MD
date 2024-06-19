@@ -13,11 +13,15 @@ git clone https://github.com/nhh979/ISM3232-Coding-Challenge17
 ```
 cd my-app
 ```
-3. Run the application
+3. Install dependencies
+```
+npm install
+```
+4. Run the application
 ``` 
 npm start 
 ```
-4. Open your browser and navigate to
+5. Open your browser and navigate to
 ```
 http://localhost:3000
 ```
